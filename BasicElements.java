@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class BasicElements{
 	public static void main (String args[]){
-		JFrame myFrame = new JFrame();
-		JButton myButton = new JButton();
+		JFrame myFrame = new JFrame("Basic Java GUI");
+		JButton myButton = new JButton("Login");
 
 		myButton.setSize(200,50);
 
